@@ -1,16 +1,28 @@
 .center {
-    text-align: center
+    justify-content: left;
+    
+    margin: 20px 100px;
+}
+#center {
+    justify-content: left;
+    
+    margin: 20px 100px;
 }
 
 .pageHeader {
     padding: 50px 100px;
+    background-color: lightgray;
+    margin: auto auto;
+    border: 3px solid black;
  
     
-    text-align: center
+    text-align: center;
 }
 
 .imageStyle {
-    border: 5px solid black
+    border: 3px solid black;
+    text-align: center;
+    
   
 }
 .borderLeft {
@@ -20,12 +32,12 @@
 body {
     font-family: 'Open Sans', sans-serif;
     
-    background-color: rgb(134, 130, 130)
+    background-color: rgb(134, 130, 130);
     
 }
 p {
-    padding: 20px
-    border: 10px solid black
+    padding: 20px;
+   
     
 }
 
@@ -35,4 +47,18 @@ h1 p {
     
     
 
+}
+
+div {
+    margin: 45px 200px
+    
+}
+
+img {
+    text-align: center
+    margin: 20px 20px 20px 20px;
+}
+
+footer {
+    justify-content: center;
 }
